@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:root{
+    --background-color: #1E1E1E;
+    --font-primary-color: #F9F8FF;
+    --primary-color: #FD6F00;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--font-primary-color);
+}

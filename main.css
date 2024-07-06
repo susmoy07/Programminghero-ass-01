@@ -1,0 +1,84 @@
+/* portfolio-container  */
+.portfolio-container{
+    height: 100%;
+}
+
+/* about me  */
+
+.about-me-pc{
+    margin: 70px 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.five-star-exp{
+    padding-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.img-star img{
+    float: right;
+}
+.exp-heading h1{
+    text-align: right;
+    font-weight: 800;
+    font-size: 55px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+.reating-exp{
+    text-align: right;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.my-exprience-pc{
+    background-image: linear-gradient(to right, #0e0021, #14001e, #18001b, #1b0018, #1d0015);    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.exprience{
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.my-exprience-pc h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+.my-exprience-pc h6{
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    opacity: 60%;
+}
+.my-exprience-pc p{
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 30px;
+    opacity: 80%;
+}
+.my-exprience-pc h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.rolling-thunder{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+    margin: 30px 0px;
+
+}
+.year-exp-ui-ux{
+    margin: 70px 0px;
+    margin-right: 250px;
+}
+.year-pc{
+    display: flex;
+    justify-content: space-between;
+}

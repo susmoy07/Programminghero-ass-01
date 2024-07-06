@@ -1,0 +1,159 @@
+.portfolio-container-2{
+    margin: 70px 250px;
+    height: 100%;
+}
+.awards-pc h1{
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+}
+.awards-pc p{
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 50%;
+    padding: 20px 0px;
+    text-align: center;
+}
+.awards-pc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.award{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(3, 0, 26);
+    padding: 40px 40px;
+    margin: 50px;
+    gap: 50px;
+}
+.award-head{
+    display: flex;
+    justify-content: space-between;
+}
+.award-head h1{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.award-head h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.award p{
+    width: 800px;
+    text-align: justify;
+    font-size: 20px;
+    opacity: 50%;
+    line-height: 40px;
+}
+
+/* buttons  */
+.portfolio-buttons button{
+    padding: 20px 25px;
+    background-color: black;
+    font-size: 25px;
+    border: 0px;
+}
+.portfolio-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.port-img{
+    margin: 100px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 80px;
+}
+.img-des-p{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-content: center;
+
+}
+.img-des-p h3{
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+}
+.img-des-p h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.img-des-p p{
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 50%;
+}
+.p-img img{
+    width: fit-content;
+}
+
+/* form start  */
+.form{
+    margin: 70px 250px;
+    height: 100%;
+}
+.form-contacts{
+    margin-top: 30px;
+    background-color: rgba(253, 111, 0, 0.3);
+    padding: 100px;
+
+}
+.form-inside{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+#form-head{
+    margin-bottom: 20px;
+}
+.form-info{
+    display: flex;
+    justify-content: space-between;
+}
+input[type=text], [type=email], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid var(--font-primary-color); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    resize: vertical 
+  }
+input[type=text], [type=email] {
+    border: 0px;
+    border-bottom: 3px solid var(--font-primary-color);
+    width: auto;
+    background-color: transparent;
+}
+
+input[type=submit] {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 23px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    width: fit-content;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    width: 50%;
+    font-size: 22px;
+  }
+  input[type=file]{
+    padding-bottom:40px;
+    cursor: pointer;
+    width: 200px;}
+.abcd{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}

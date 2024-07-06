@@ -1,0 +1,162 @@
+/* body  */
+.container{
+    /* background-color: var(--background-color); */
+    background-image: linear-gradient(to top, #020024, #050828, #060f2c, #071431, #091835, #091835, #091835, #091835, #071431, #060f2c, #050828, #020024);
+}
+
+.header-container{
+    height: 100%;
+}
+
+/* nab */
+.nab{
+    margin: 70px 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.nab-logo img{
+    width: 90px;
+    height: 90px;
+}
+.nab-option{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 5px;
+}
+.nab-option h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-top: 15px;
+ }
+.nab-option button{
+    padding: 15px 30px;
+    background-color: var(--primary-color);
+    font-size: 25px;
+    text-transform: capitalize;
+    border: 0px;
+    border-radius: 10px;
+}
+/* nab end  */
+
+/* parsonal description */
+.personal-description{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+
+}
+.pd-without-img{
+    height: 800px;
+}
+.pd-heading h1{
+    text-align: left;
+    font-weight: 800;
+    font-size: 55px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    line-height: 70px;
+}
+.pd-heading {
+    padding-top: 150px;
+}
+.pd-desc{
+    width: 725px;
+    padding: 10px 0px;
+}
+.pd-desc p{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    opacity: 50%;
+}
+.pd-skill h1{
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+.pd-skill{
+    padding: 20px 0px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.pd-skill img{
+    height: 45px;
+    width: 45px;
+}
+
+/* port button */
+.portfolio-button button{
+    border-radius: 55px;
+    border: 1px;
+    background-color: var(--primary-color);
+    font-size: 30px;
+    padding: 20px 28px;
+    display: flex;
+    align-content: center;
+    gap: 10px;
+}
+.portfolio-button{
+    display: flex;
+    gap: 50px;
+    border: 2px solid  var(--font-primary-color);
+    padding: 13px;
+    border-radius: 55px;
+    width: 430px;
+    height: 80px;
+    font-size: 30px;
+    background-color: #4b485f93;
+    margin-top: 12px;
+}
+.portfolio-button h1{
+    padding-top: 19px;
+}
+/* button end  */
+
+/* social logo  */
+.ds-social-logo{
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+}
+.ds-social-logo img{
+    height: 45px;
+    width: 45px;
+}
+
+/* rotated bar & picture */
+
+
+.ds-bar h1{
+    font-size: 37px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+}
+.ds-bar{
+    display: flex;
+    gap: 30px;
+    height: 150px;
+    transform: rotate(-3.97deg);
+    text-transform: uppercase;
+    background-color: #020024;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+    margin-top: -200px;
+}
+.ds-bar img{
+    height: 45px;
+    width: 45px;
+}
+
+.ds-pic img{
+    height: 930px;
+    width: fit-content;
+}
+.ds-pic{
+    margin: 0px;
+}
